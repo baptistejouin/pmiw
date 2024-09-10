@@ -1,3 +1,5 @@
+// https://youtu.be/JSRaZshSaI8
+
 const gridSize = 300;
 const radius = 200;
 let rightBaseColor;
@@ -6,7 +8,7 @@ function setup() {
   createCanvas(800, 400);
   noStroke();
 
-  rightBaseColor = color(random(255), random(255), random(255));
+  rightBaseColor = randomBaseColor()
 }
 
 function drawGrid(cols, rows, baseColor) {
